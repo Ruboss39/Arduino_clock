@@ -1,0 +1,10 @@
+  char temp[8];
+  itoa(iterations,temp,10);
+  if(iterations < 0)
+  {
+   iterations = 0;
+  }
+  oled.setFont(u8g_font_timB12);
+  oled.drawStr(60,40,temp);
+  //oled.drawLine(0,iterations,127,63 - iterations);
+  //oled.drawLine(127,iterations,0,63 - iterations);

@@ -1,0 +1,4 @@
+ButtonClass	KEYWORD1
+button_click	KEYWORD2
+button_release	KEYWORD2
+button_hold	KEYWORD2
